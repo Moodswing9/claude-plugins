@@ -1,0 +1,53 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "moodswing9",
+  "owner": {
+    "name": "Moodswing9",
+    "url": "https://github.com/Moodswing9"
+  },
+  "description": "Claude Code plugins for Dell EMC backup infrastructure — PowerProtect Data Manager, NetWorker and Data Domain — plus an AI presentation generator.",
+  "plugins": [
+    {
+      "name": "networker-ppdm",
+      "source": { "source": "github", "repo": "Moodswing9/networker-ppdm" },
+      "description": "Expert guidance and automation for NetWorker, PPDM and Data Domain: a knowledge skill, 13 slash commands (health checks, SLA and executive reports, guided restores, DR orchestration and planning, anomaly detection) and 2 agents.",
+      "category": "backup",
+      "keywords": ["networker", "ppdm", "data-domain", "backup", "restore", "disaster-recovery"]
+    },
+    {
+      "name": "backup-log-analyzer",
+      "source": { "source": "github", "repo": "Moodswing9/backup-log-analyzer" },
+      "description": "/analyze-log — severity, root causes and fix commands for PPDM, NetWorker, Data Domain, Veeam, syslog and Windows Event Log output, with a diff mode for regressions.",
+      "category": "backup",
+      "keywords": ["logs", "troubleshooting", "ppdm", "networker", "veeam"]
+    },
+    {
+      "name": "ppdm-es-troubleshooter",
+      "source": { "source": "github", "repo": "Moodswing9/ppdm-es-troubleshooter" },
+      "description": "/es-diagnose and /ppdm-check — structured diagnosis of PPDM Elasticsearch problems and live cluster health checks with remediation commands.",
+      "category": "backup",
+      "keywords": ["ppdm", "elasticsearch", "diagnostics"]
+    },
+    {
+      "name": "ppdm-watch",
+      "source": { "source": "github", "repo": "Moodswing9/ppdm-watch" },
+      "description": "/ppdm-status — an AI briefing from ppdmwatch daemon logs, plus a skill for interpreting the real-time PPDM monitoring dashboard.",
+      "category": "backup",
+      "keywords": ["ppdm", "monitoring", "dashboard"]
+    },
+    {
+      "name": "ppdm-capacity-planner",
+      "source": { "source": "github", "repo": "Moodswing9/ppdm-capacity-planner" },
+      "description": "plan-capacity skill — forecasts when PPDM storage systems will cross 80% and 95%, with recommendations and an executive summary. Includes a demo mode.",
+      "category": "backup",
+      "keywords": ["ppdm", "capacity-planning", "forecasting"]
+    },
+    {
+      "name": "deck-generator",
+      "source": { "source": "github", "repo": "Moodswing9/claude-deck-generator" },
+      "description": "/deck and /deck-remix — generate or remix PowerPoint and HTML presentations from any topic.",
+      "category": "productivity",
+      "keywords": ["presentations", "pptx", "slides"]
+    }
+  ]
+}

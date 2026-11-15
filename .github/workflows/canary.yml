@@ -1,0 +1,7 @@
+name: canary
+on: [pull_request]
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "ruleset canary - deliberately missing permissions"

@@ -48,7 +48,7 @@ Each plugin's own README covers its requirements, such as Python for the backup 
 
 ## Related
 
-- [ppdm-mcp-server](https://github.com/Moodswing9/ppdm-mcp-server) — 32 MCP tools for PPDM, NetWorker and Data Domain (`npx -y ppdm-mcp-server`)
+- [ppdm-mcp-server](https://github.com/Moodswing9/ppdm-mcp-server) — 32 MCP tools for PPDM, NetWorker and Data Domain (`npx -y ppdm-mcp-server@5`)
 - [ppdm-alert-bot](https://github.com/Moodswing9/ppdm-alert-bot) — PPDM and NetWorker alerts to Slack, Teams, PagerDuty and email
 
 Portfolio: [moodswing9.github.io](https://moodswing9.github.io/)
